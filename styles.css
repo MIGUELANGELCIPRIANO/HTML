@@ -11,9 +11,9 @@ body {
 	width: 320px;
 	height: 500px;
 	background: #000000a1;
-	box-shadow: 0px 0px 10px #ffc935;
+	box-shadow: 0px 0px 10px #ffd45d;
 	border-radius: 2%;
-	color: #ffc935;
+	color: #ffd45d;
 	top: 50%;
 	left: 50%;
 	position: absolute;
@@ -29,7 +29,7 @@ body {
 	position: absolute;
 	top: 25px;
 	left: calc(50% - 50px);
-	box-shadow: 0px 0px 10px #ffc935;
+	box-shadow: 0px 0px 10px #ffd45d;
 }
 
 .login-box h1 {
@@ -55,7 +55,7 @@ body {
 .login-box input[type='text'],
 .login-box input[type='password'] {
 	border: none;
-	border-bottom: 1px solid #ffc935;
+	border-bottom: 1px solid #ffd45d;
 	background: transparent;
 	outline: none;
 	height: 30px;
@@ -66,7 +66,7 @@ body {
 }
 
 .login-box input[type='submit'] {
-	border: 1px solid #ffc935;
+	border: 1px solid #ffd45d;
 	background-color: transparent;
 	width: 120px;
 	height: 40px;
@@ -74,8 +74,8 @@ body {
 	margin-top: 20px;
 	margin-bottom: 25px;
 	display: block;
-	color: #ffc935;
-	box-shadow: 0px 0px 15px #ffc935;
+	color: #ffd45d;
+	box-shadow: 0px 0px 15px #ffd45d;
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 15px;
 	font-weight: bold;
@@ -87,7 +87,7 @@ body {
 
 .login-box input[type='submit']:hover {
 	transition: all ease-in-out 0.3s;
-	background-color: #ffc935;
+	background-color: #ffd45d;
 	color: #161616;
 }
 
@@ -103,6 +103,6 @@ body {
 }
 
 .login-box a:hover {
-	color: #ffc935;
+	color: #ffd45d;
 	text-shadow: 0px 0px 2.5px rgba(97, 96, 92, 0.75);
 }
