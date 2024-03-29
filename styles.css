@@ -1,10 +1,11 @@
 body {
+	font-family: 'Times New Roman', Times, serif;
+	background: url(./images/hurloon_battle_hymn.jpg);
+	background-size: cover;
+	background-position: 50% 40%;
+	height: 100vh;
 	margin: 0;
 	padding: 0;
-	background: url(../img/background.jpg) no-repeat center top;
-	background-size: cover;
-	font-family: 'Times New Roman', Times, serif;
-	height: 100vh;
 }
 
 .login-box {
