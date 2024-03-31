@@ -4,22 +4,71 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Magic The Gathering</title>
-		<link rel="icon" href="./images/magic_logo.png">
-		<link rel="stylesheet" href="styles.css" />
+		<link rel="icon" href="./images/magic_logo.png" />
+		<link
+			href="https://unpkg.com/@saeris/typeface-beleren-bold@latest/index.css"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link
+			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="index.css" />
 	</head>
 	<body>
-		<div class="login-box">
-			<img class="avatar" src="images/red.png" alt="Logo" />
-			<h1>WELCOME TO ARENA</h1>
-			<form>
-				<label for="username">Username</label>
-				<input type="text" placeholder="Enter username" />
-				<label for="password">Password</label>
-				<input type="password" placeholder="Enter password" />
-				<input type="submit" value="Login" />
-				<a href="#">Forgot your password?</a>
-				<a href="#">Don't you have an account?</a>
-			</form>
+		<div class="header">
+			<a href="/">
+				<img
+					class="header-logo"
+					src="./images/magic_the_gathering.webp"
+					alt="magic_the_gathering"
+				/>
+			</a>
+		</div>
+		<div class="main-content">
+			<div class="login-box">
+				<form action="">
+					<img
+						class="form-logo"
+						src="./images/magic_arena.png"
+						alt="magic_arena"
+					/>
+					<div class="input-box">
+						<label for="email">Email</label>
+						<input type="text" placeholder="example@wizards.com" required />
+						<i class="bx bx-envelope"></i>
+					</div>
+					<div class="input-box">
+						<label for="password">Password</label>
+						<input type="password" placeholder="xxxxxxxxxx" required />
+						<i class="bx bx-lock-alt"></i>
+					</div>
+					<div class="remember-forgot">
+						<label><input type="checkbox" />Remember me</label>
+						<a href="#">Forgot your password?</a>
+					</div>
+					<button type="submit" class="button">PLAY FREE</button>
+					<div class="register-link">
+						<p>Don't you have an account? <a href="#">Register</a></p>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="footer">
+			<footer>
+				<img
+					class="footer-logo"
+					src="./images/wizards_of_the_coast.png"
+					alt="wizards_of_the_coast"
+				/>
+				<div>
+					Copyright © 1993-2024 Wizards of the Coast LLC, a subsidiary of
+					Hasbro, Inc.
+				</div>
+				<div>Copyright © 2018 Drake Costa</div>
+				<div>All Rights Reserved.</div>
+			</footer>
 		</div>
 	</body>
 </html>
