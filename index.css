@@ -1,0 +1,179 @@
+html,
+body {
+	height: 100%;
+	margin: 0;
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background: rgb(0, 0, 0);
+}
+
+.header,
+.main-content,
+.footer {
+	flex-shrink: 0;
+	width: 100%;
+}
+
+.header-logo {
+	margin: 30px;
+	width: 15%;
+	height: auto;
+	cursor: pointer;
+	transition: 0.5s;
+	filter: drop-shadow(0 0 5px rgb(0, 0, 0));
+}
+
+.header-logo:hover {
+	filter: drop-shadow(0 0 5px rgb(255, 0, 0));
+}
+
+.main-content {
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.login-box {
+	width: 320px;
+	background: rgba(0, 0, 0);
+	box-shadow: 0px 0px 10px rgb(255, 212, 93);
+	border-radius: 2%;
+	color: rgb(255, 212, 93);
+	padding: 30px 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.login-box .form-logo {
+	width: 40%;
+	height: auto;
+}
+
+.login-box .input-box {
+	position: relative;
+	width: 100%;
+	height: 50px;
+	margin: 30px 0;
+}
+
+.input-box label {
+	font-family: 'Beleren Bold';
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+.input-box input {
+	width: 100%;
+	height: 30px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid rgb(255, 212, 93);
+	color: rgb(134, 134, 134);
+	font-size: 16px;
+	padding: 10px;
+	padding-bottom: 15px;
+}
+
+.input-box i {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(50%);
+}
+
+.login-box .remember-forgot {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+
+.remember-forgot label {
+	display: flex;
+	align-items: center;
+	font-family: 'Beleren Bold';
+	letter-spacing: 1px;
+	color: rgb(134, 134, 134);
+}
+
+.remember-forgot label input {
+	accent-color: white;
+	margin-right: 5px;
+}
+
+.remember-forgot a {
+	font-family: 'Beleren Bold';
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-shadow: none;
+	color: rgb(134, 134, 134);
+	transition: all ease-in-out 0.3s;
+}
+
+.remember-forgot a:hover {
+	color: rgb(255, 212, 93);
+	text-shadow: 0px 0px 5px rgba(97, 96, 92, 0.75);
+}
+
+.login-box .button {
+	width: 100%;
+	height: 45px;
+	background: #fff;
+	border: none;
+	border-radius: 40px;
+}
+
+.login-box .register-link {
+	font-size: 13px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.register-link p {
+	font-family: 'Beleren Bold';
+	letter-spacing: 1px;
+	color: rgb(134, 134, 134);
+}
+
+.register-link a {
+	font-family: 'Beleren Bold';
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-shadow: none;
+	color: rgb(134, 134, 134);
+	transition: all ease-in-out 0.3s;
+}
+
+.register-link a:hover {
+	color: rgb(255, 212, 93);
+	text-shadow: 0px 0px 5px rgba(97, 96, 92, 0.75);
+}
+
+.footer {
+	text-align: center;
+	margin-top: 50px;
+}
+
+footer {
+	text-shadow: 0 0 5px rgb(0, 0, 0);
+	bottom: 15px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 12px;
+	margin-bottom: 25px;
+}
+
+.footer-logo {
+	filter: drop-shadow(0 0 10px rgb(0 0 0));
+	margin-bottom: -10px;
+}
