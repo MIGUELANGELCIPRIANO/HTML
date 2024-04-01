@@ -24,8 +24,8 @@ body {
 }
 
 .header-logo {
-	margin: 30px;
-	width: 15%;
+	margin: 2rem; /* 32px */
+	width: 15rem; /* 240px */
 	height: auto;
 	cursor: pointer;
 	transition: all 0.3s;
@@ -44,13 +44,13 @@ body {
 }
 
 .login-box {
-	width: 320px;
+	width: 20rem; /* 320px */
 	background: transparent;
-	backdrop-filter: blur(2px);
-	box-shadow: 0px 0px 10px rgb(255, 212, 93);
+	backdrop-filter: blur(0.125rem); /* 2px */
+	box-shadow: 0px 0px 0.625rem rgb(255, 212, 93); /* 10px */
 	border-radius: 2%;
 	color: rgb(255, 212, 93);
-	padding: 30px 40px;
+	padding: 1.875rem 2.5rem; /* 30px 40px */
 }
 
 .login-box .logo-container {
@@ -72,12 +72,12 @@ body {
 
 .login-box .input-box {
 	position: relative;
-	margin: 30px 0;
+	margin: 1.875rem 0; /* 30px */
 }
 
 .input-box label {
 	font-family: 'Beleren Bold';
-	font-size: 18px;
+	font-size: 1.125rem; /* 18px */
 	letter-spacing: 1px;
 	text-shadow: 0 0 5px rgb(0, 0, 0);
 }
@@ -88,16 +88,16 @@ body {
 	border: none;
 	outline: none;
 	box-sizing: border-box;
-	border-bottom: 1px solid rgb(255, 212, 93);
+	border-bottom: 0.0625rem solid rgb(255, 212, 93); /* 1px */
 	color: rgb(255, 255, 255);
-	font-size: 16px;
+	font-size: 1rem; /* 16px */
 	text-shadow: 0 0 5px rgb(0, 0, 0);
-	padding-bottom: 10px;
+	padding-bottom: 0.625rem; /* 10px */
 }
 
 .input-box i {
 	position: absolute;
-	right: 5px;
+	right: 0.3125rem; /* 5px */
 	top: 50%;
 	vertical-align: middle;
 }
@@ -106,8 +106,8 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-bottom: 20px;
-	font-size: 14px;
+	margin-bottom: 1.25rem; /* 20px */
+	font-size: 0.875rem; /* 14px */
 }
 
 .remember-forgot label {
@@ -121,7 +121,7 @@ body {
 
 .remember-forgot label input {
 	accent-color: white;
-	margin-right: 5px;
+	margin-right: 0.3125rem; /* 5px */
 }
 
 .remember-forgot a {
@@ -142,23 +142,23 @@ body {
 .login-box .button-container {
 	display: flex;
 	justify-content: center;
-	padding: 10px;
+	padding: 0.625rem; /* 10px */
 }
 
 .button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 13rem;
+	width: 13rem; /* 208px */
 	overflow: hidden;
-	height: 3rem;
+	height: 3rem; /* 48px */
 	background-size: 300% 300%;
-	backdrop-filter: blur(3rem);
+	backdrop-filter: blur(0.1875rem); /* 3px */
 	border-radius: 5rem;
 	transition: all 0.3s;
 	animation: gradient_301 5s ease infinite;
-	border: 2px solid rgb(255, 212, 93);
-	box-shadow: 0px 0px 20px rgb(255, 212, 93);
+	border: 0.125rem solid rgb(255, 212, 93); /* 2px */
+	box-shadow: 0px 0px 1.25rem rgb(255, 212, 93); /* 20px */
 	background-image: linear-gradient(#212121, #212121),
 		linear-gradient(
 			137.48deg,
@@ -179,7 +179,7 @@ body {
 	height: 100%;
 	overflow: hidden;
 	transition: 0.3s;
-	backdrop-filter: blur(1rem);
+	backdrop-filter: blur(1rem); /* 16px */
 	border-radius: 5rem;
 }
 
@@ -315,10 +315,10 @@ strong {
 }
 
 .login-box .register-link {
-	font-size: 14px;
+	font-size: 0.875rem; /* 14px */
 	text-align: center;
-	margin-top: 20px;
-	margin-bottom: -10px;
+	margin-top: 1.25rem; /* 20px */
+	margin-bottom: -0.625rem; /* -10px */
 }
 
 .register-link p {
@@ -345,7 +345,7 @@ strong {
 
 .footer {
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 3.125rem; /* 50px */
 }
 
 footer {
@@ -353,8 +353,8 @@ footer {
 	bottom: 15px;
 	text-align: center;
 	color: #ffffff;
-	font-size: 12px;
-	margin-bottom: 25px;
+	font-size: 0.75rem; /* 12px */
+	margin-bottom: 1.5rem; /* 24px */
 }
 
 .footer-logo {
