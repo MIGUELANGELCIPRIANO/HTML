@@ -46,21 +46,21 @@ body {
 	border-radius: 2%;
 	color: rgb(255, 212, 93);
 	padding: 30px 40px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
 }
 
-.login-box .form-logo {
-	width: 40%;
+.login-box .logo-container {
+	display: flex;
+	justify-content: center;
+}
+
+.logo-container .form-logo {
+	width: 50%;
 	height: auto;
+	filter: drop-shadow(0 0 10px rgb(0 0 0));
 }
 
 .login-box .input-box {
 	position: relative;
-	width: 100%;
-	height: 50px;
 	margin: 30px 0;
 }
 
@@ -72,30 +72,29 @@ body {
 
 .input-box input {
 	width: 100%;
-	height: 30px;
 	background: transparent;
 	border: none;
 	outline: none;
+	box-sizing: border-box;
 	border-bottom: 1px solid rgb(255, 212, 93);
 	color: rgb(134, 134, 134);
 	font-size: 16px;
-	padding: 10px;
-	padding-bottom: 15px;
+	padding-bottom: 10px;
 }
 
 .input-box i {
 	position: absolute;
-	right: 10px;
+	right: 5px;
 	top: 50%;
-	transform: translateY(50%);
+	vertical-align: middle;
 }
 
 .login-box .remember-forgot {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	font-size: 12px;
 	margin-bottom: 20px;
+	font-size: 14px;
 }
 
 .remember-forgot label {
@@ -134,7 +133,7 @@ body {
 }
 
 .login-box .register-link {
-	font-size: 13px;
+	font-size: 14px;
 	text-align: center;
 	margin-top: 20px;
 }
