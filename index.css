@@ -155,7 +155,7 @@ body {
 	background-size: 300% 300%;
 	backdrop-filter: blur(0.1875rem); /* 3px */
 	border-radius: 5rem;
-	transition: all 0.3s;
+	transition: all 0.1s;
 	animation: gradient_301 5s ease infinite;
 	border: 0.125rem solid rgb(255, 212, 93); /* 2px */
 	box-shadow: 0px 0px 1.25rem rgb(255, 212, 93); /* 20px */
@@ -216,7 +216,7 @@ strong {
 }
 
 .button:active {
-	transform: translateY(2px);
+	transform: scale(0.97);
 	box-shadow: 0px 0px 10px rgb(255, 212, 93);
 }
 
