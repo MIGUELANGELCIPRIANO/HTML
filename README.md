@@ -8,7 +8,7 @@ Creating a login form, starting with the HTML structure, and then styling it thr
 
 ## EXECUTION
 
-1. Open the form in your browser by right clicking on the index.html file and selecting the option "Open with Live Server" or by using Microsoft's "Live Preview" extension for Visual Studio Code.
+1. Open the software in your browser by right-clicking on the index.html file and selecting the option "Open with Live Server" or by using Microsoft's "Live Preview" extension for Visual Studio Code.
 
 ## LICENSE
 
